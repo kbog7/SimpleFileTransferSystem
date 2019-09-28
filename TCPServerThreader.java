@@ -7,7 +7,7 @@ TCPServerThreader{
 
     public static void main (String[] args) throws IOException{
 
-        InetAddress ipv6Addr = InetAddress.getByName("fe80::70a7:66ab:db86:37db");
+        InetAddress ipv6Addr = InetAddress.getByName("fdde:ad00:beef:0:a3d3:5255:6161:64dd");
         ServerSocket serverSocket1 = new ServerSocket(6666,5, ipv6Addr);
     
         while(true){
